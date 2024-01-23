@@ -7,3 +7,19 @@
 # Accessing data from the hash
 
 # More Complex Hashes
+
+me = {
+"name" => "Jesse", 
+"location" => {
+"City" => "Evanston",
+"State" => "IL"
+},
+ "timeline" => [
+    {"status" => "Eat Lunch", "posted" => "12pm"}, 
+    {"status" => "Make Breakfast", "posted" => "8am"}, 
+    {"status" => "Make Coffee", "posted" => "7am"}
+    ]
+}
+
+puts me ["timeline"][0]["status"]
+

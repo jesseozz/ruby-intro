@@ -15,3 +15,9 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+jesse_list = ["almond milk", "eggs", "bacon"]
+bobby_list = ["beer", "cookies", "apples", "bacon"]
+joint_list = jesse_list + bobby_list
+
+puts joint_list.uniq.sort

@@ -17,3 +17,14 @@
 # Combine strings and variables
 
 # String manipulation
+
+# #Put the number 2 on screen
+
+# puts 2+5
+
+# x
+
+favorite_thing = "tacos"
+
+puts favorite_thing.reverse
+
